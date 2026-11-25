@@ -1,0 +1,12 @@
+{
+  "container": {
+    "kind": "project",
+    "create": {
+      "name": "PhoneLocker: app/build.gradle.kts",
+      "doc": {
+        "markdown": "# app/build.gradle.kts\n\n\u0421\u043a\u043e\u043f\u0438\u0440\u0443\u0439 \u0432\u0435\u0441\u044c \u0442\u0435\u043a\u0441\u0442 \u043d\u0438\u0436\u0435 \u0438 \u0432\u0441\u0442\u0430\u0432\u044c \u0432 \u043f\u043e\u043b\u0435 \u0444\u0430\u0439\u043b\u0430 \u043d\u0430 GitHub.\n\n```\nplugins {\n    id(\"com.android.application\")\n    id(\"org.jetbrains.kotlin.android\")\n}\n\nandroid {\n    namespace = \"com.spectral.phonelocker\"\n    compileSdk = 35\n\n    defaultConfig {\n        applicationId = \"com.spectral.phonelocker\"\n        minSdk = 23\n        targetSdk = 28\n        versionCode = 1\n        versionName = \"1.0\"\n    }\n\n    buildTypes {\n        release {\n            isMinifyEnabled = false\n        }\n    }\n\n    compileOptions {\n        sourceCompatibility = JavaVersion.VERSION_17\n        targetCompatibility = JavaVersion.VERSION_17\n    }\n    kotlinOptions {\n        jvmTarget = \"17\"\n    }\n}\n```\n"
+      }
+    }
+  },
+  "batch": []
+}
