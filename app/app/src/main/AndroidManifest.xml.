@@ -1,0 +1,12 @@
+{
+  "container": {
+    "kind": "project",
+    "create": {
+      "name": "PhoneLocker: AndroidManifest.xml",
+      "doc": {
+        "markdown": "# app/src/main/AndroidManifest.xml\n\n\u0421\u043a\u043e\u043f\u0438\u0440\u0443\u0439 \u0432\u0435\u0441\u044c \u0442\u0435\u043a\u0441\u0442 \u043d\u0438\u0436\u0435 \u0438 \u0432\u0441\u0442\u0430\u0432\u044c \u0432 \u043f\u043e\u043b\u0435 \u0444\u0430\u0439\u043b\u0430 \u043d\u0430 GitHub.\n\n```\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>\n    <uses-permission android:name=\"android.permission.PACKAGE_USAGE_STATS\" />\n    <uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\"/>\n    <application\n        android:allowBackup=\"false\"\n        android:label=\"PhoneLocker\"\n        android:theme=\"@android:style/Theme.Material.Light.NoActionBar\">\n        <activity android:name=\".MainActivity\" android:exported=\"true\">\n            <intent-filter>\n                <action android:name=\"android.intent.action.MAIN\"/>\n                <category android:name=\"android.intent.category.LAUNCHER\"/>\n            </intent-filter>\n        </activity>\n        <service android:name=\".LockerService\" android:exported=\"false\"/>\n    </application>\n</manifest>\n```\n"
+      }
+    }
+  },
+  "batch": []
+}
